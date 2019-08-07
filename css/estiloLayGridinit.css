@@ -1,0 +1,36 @@
+:root {
+    --gap: 3rem;
+}
+
+.layout {
+    display: grid;
+    grid-gap: var(--gap);
+    grid-template-areas:
+        "header header header"
+        "main main aside"
+        "footer footer footer";
+    /* grid-template-rows: 100px 100vh 50px; */
+    /*
+    Calc() - usado para calcular o tamanho vertical da pagina
+    elementos 1 100px, 2 50px, espaços de 1rem - 16px
+     */
+    grid-template-rows: 100px calc(100vh - 248px) 50px;
+}
+.grid {
+    background-color: #cecece;
+}
+
+.grid-header {
+    grid-area: header;
+}
+.grid-main {
+    grid-area: main;
+    margin-left: var(--gap);
+}
+.grid-aside {
+    grid-area: aside;
+    margin-right: var(--gap);
+}
+.grid-footer {
+    grid-area: footer;
+}

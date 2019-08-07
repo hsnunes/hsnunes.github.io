@@ -1,0 +1,32 @@
+* { padding: 0; margin: 0; }
+body { background-color: #cecece; }
+
+#tpl {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: "header header header" "aside content nav";
+    grid-template-rows: 5vh auto;
+    grid-template-columns: 30vw 55vw 15vw;
+    overflow: hidden;
+}
+
+.topnav { grid-area: header; }
+.profile { grid-area: aside;background-color: #ccc;margin-left: 1rem; }
+.content { 
+    grid-area: content;
+    background-color: #fff;
+    padding: 2rem;
+}
+.menu {
+    grid-area: nav;
+    font-size: 4rem;
+}
+.rodape { grid-area: footer; }
+
+/* Criando Breakpoint */
+/* @media screen and (max-width: 768px){
+    #tpl {
+        grid-template-areas: "header" "profile" "aside" "footer";
+    }
+    .main-nav { grid-area: header; margin-bottom: 10px; }
+} */
