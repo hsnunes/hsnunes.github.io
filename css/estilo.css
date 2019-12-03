@@ -1,18 +1,47 @@
-* { padding: 0; margin: 0; }
-body { background-color: #cecece; }
+html, body { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #cecece;
+}
 
 #tpl {
     display: grid;
-    grid-gap: 1rem;
-    grid-template-areas: "header header header" "aside content nav";
-    grid-template-rows: 5vh auto;
-    grid-template-columns: 30vw 55vw 15vw;
+    grid-template-areas: "card" "content" "nav";
     overflow: hidden;
 }
 
-.topnav { grid-area: header; }
-.profile { grid-area: aside;background-color: #ccc;margin-left: 1rem; }
-.content { 
+/* Criando Breakpoint */
+/* @media screen and (max-width: 768px){
+    #tpl {
+        grid-template-areas: "profile content nav";
+        grid-template-columns: 50vw;
+    }
+    .main-nav { grid-area: header; margin-bottom: 10px; }
+} */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* .topnav { grid-area: profile; } */
+.card {
+    grid-area: card;
+    /* background-color: red; */
+}
+    .card {
+        height: 100vh;
+    }
+.content {
+    height:100vh;
     grid-area: content;
     background-color: #fff;
     padding: 2rem;
@@ -21,12 +50,5 @@ body { background-color: #cecece; }
     grid-area: nav;
     font-size: 4rem;
 }
+.menu ul { display: flex;justify-content: space-around; }
 .rodape { grid-area: footer; }
-
-/* Criando Breakpoint */
-/* @media screen and (max-width: 768px){
-    #tpl {
-        grid-template-areas: "header" "profile" "aside" "footer";
-    }
-    .main-nav { grid-area: header; margin-bottom: 10px; }
-} */
