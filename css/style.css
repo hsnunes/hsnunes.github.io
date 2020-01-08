@@ -18,7 +18,6 @@ html, body {
 body {
     margin: 0;
     padding: 0;
-    color: var(--cor4);
 }
 a {
     color: inherit;
@@ -43,29 +42,25 @@ menu {
     border-right: 3px solid var(--cor1);
     transform: translateX(-300px);
 }
-
-.menu-active menu {
-    transform: translateX(0);
-}
-
-.menu-active header,
-.menu-active main,
-.menu-active footer  {
-    transform: translateX(300px);
-}
+    .menu-active menu {
+        transform: translateX(0);
+    }
+    .menu-active header,
+    .menu-active main,
+    .menu-active footer  {
+        transform: translateX(300px);
+    }
+    menu li a {
+        display: block;
+        padding: .5em;
+        color: var(--cor3);
+    }
+    menu li a:hover {
+        background-color: var(--cor2);
+    }
 
 header, main, menu, footer  {
     transition: transform .3s linear;
-}
-
-menu li a {
-    display: block;
-    padding: .5em;
-    color: var(--cor3);
-}
-
-menu li a:hover {
-    background-color: var(--cor2);
 }
 
 h1, h2, p {
@@ -82,49 +77,46 @@ h1, h2 {
     font-weight: bold;
 }
 h1.name {
-    font-family: 'Arizonia', cursive;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 3em;
 }
 
 header {
-    background: url(../img/hsnmb.jpg) center center cover no-repeat fixed;
-    /* background-color: var(--cor4); */
+    background: url(../img/hsnmb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     height: 100%;
     line-height: 5em;
 }
-
-header a {
-    color: var(--cor3);
-}
-
-header .menu-icon {
-    position: absolute;
-    top: 1.5em;
-    left: 1.5em;
-    width: 2em;
-    height: 2em;
-    display: block;
-    /* background-color: var(--cor2); */
-    cursor: pointer;
-}
-
-header .menu-icon:before {
-    content: '';
-    display: block;
-    margin: 4px auto;
-    width: 80%;
-    height: .3em;
-    background-color: #FFF;
-    /* criando os traçoes do botão */
-    box-shadow: 0 .6rem 0 0 #FFF, 0 1.2rem 0 0 #FFF;
-}
+    header a {
+        color: var(--cor3);
+    }
+    header .menu-icon {
+        position: absolute;
+        top: 1.5em;
+        left: 1.5em;
+        width: 2em;
+        height: 2em;
+        display: block;
+        background-color: var(--cor4);
+        cursor: pointer;
+    }
+    header .menu-icon:before {
+        content: '';
+        display: block;
+        margin: 4px auto;
+        width: 80%;
+        height: .3em;
+        background-color: #FFF;
+        box-shadow: 0 .6rem 0 0 #FFF, 0 1.2rem 0 0 #FFF;/* criando os traçoes do botão */
+    }
 
 /* Imagens responsivas */
 img.responsive {
     width: auto;
-    /* height: auto; */
     height: 100%;
 }
 
@@ -175,24 +167,10 @@ img.responsive {
 .row-flex {
     display: flex;
 }
-.col-flex {}
 
-body {
-    background-color: #000;
-}
 
 /* Celulares */
-@media (min-width: 572px){
-  
-}
-
-/* Tablets */
-@media (min-width: 768px){
-
-}
-
-/* Celulares */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .col {
         width: 33%;
         float: left;
@@ -212,6 +190,4 @@ body {
     menu li {
         display: inline-block;
     }
-}
-
-@media (min-width: 1200px){}
+} */

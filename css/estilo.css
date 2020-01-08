@@ -5,11 +5,79 @@ html, body {
     background-color: #cecece;
 }
 
-#tpl {
+header {
+    text-align: center;
+    height: 3em;
+    line-height: 3em;
+}
+
+header a {
+    color: orangered;
+}
+header .menu-icon {
+    position: absolute;
+    top: .5rem;
+    left: 1rem;
+    width: 2em;
+    height: 2em;
+    display: block;
+    cursor: pointer;
+}
+header .menu-icon:before {
+    content: '';
+    display: block;
+    margin: 4px auto;
+    width: 80%;
+    height: .3em;
+    background-color: #FFF;
+    /* criando os traçoes do botão */
+    box-shadow: 0 .6rem 0 0 #FFF, 0 1.2rem 0 0 #FFF;
+}
+menu, menu ul, menu li {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: #666;
+    z-index: 1;
+    padding: 1em 0;
+    border-right: 3px solid #999;
+    transform: translateX(-300px);
+}
+.menu-active menu {
+    transform: translateX(0);
+}
+.menu-active header,
+.menu-active main,
+.menu-active footer  {
+    transform: translateX(300px);
+}
+header, main, menu, footer  {
+    transition: transform .3s linear;
+}
+menu li a {
+    display: block;
+    padding: .5em;
+    color: var(--cor3);
+}
+menu li a:hover {
+    background-color: var(--cor2);
+}
+
+
+/* #tpl {
     display: grid;
     grid-template-areas: "card" "content" "nav";
     overflow: hidden;
-}
+} */
 
 /* Criando Breakpoint */
 /* @media screen and (max-width: 768px){
@@ -32,23 +100,23 @@ html, body {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }
 
-/* .topnav { grid-area: profile; } */
-.card {
+/* .topnav { grid-area: profile; } 
+/ .card {
     grid-area: card;
-    /* background-color: red; */
-}
-    .card {
+    /* background-color: red; /
+} */
+    /* .card {
         height: 100vh;
-    }
-.content {
+    } */
+/* .content {
     height:100vh;
     grid-area: content;
     background-color: #fff;
     padding: 2rem;
-}
-.menu {
+} */
+/* .menu {
     grid-area: nav;
     font-size: 4rem;
-}
-.menu ul { display: flex;justify-content: space-around; }
-.rodape { grid-area: footer; }
+} */
+/* .menu ul { display: flex;justify-content: space-around; } */
+/* .rodape { grid-area: footer; } */
