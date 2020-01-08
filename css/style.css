@@ -170,6 +170,32 @@ img.responsive {
     display: flex;
 }
 
+#missaoDiaria {
+    list-style: none;
+    display: inline-block;
+    line-height: 1.3em;
+    padding:0 1em;
+    margin: 0;
+}
+#missaoDiaria li.title-mission {
+    background-color: orangered;
+    color: #FFF;
+    font-weight: bold;
+    opacity: 1;
+    margin-bottom: .5rem;
+}
+#missaoDiaria li {
+    padding: .5em;
+    color: #FFF;
+    background-color: #000;
+    opacity: .5;
+    margin-bottom: 2px;
+}
+
+
+
+
+
 
 /* Celulares */
 /* @media (min-width: 992px) {
