@@ -36,11 +36,12 @@ menu {
     left: 0;
     width: 300px;
     height: 100vh;
-    background-color: var(--cor1);
+    background-color: var(--cor4);
     z-index: 1;
     padding: 1em 0;
-    border-right: 3px solid var(--cor1);
+    border-right: 3px solid var(--cor4);
     transform: translateX(-300px);
+    text-align: center;
 }
     .menu-active menu {
         transform: translateX(0);
@@ -54,9 +55,10 @@ menu {
         display: block;
         padding: .5em;
         color: var(--cor3);
+        font-size: 1.5em;
     }
     menu li a:hover {
-        background-color: var(--cor2);
+        background-color: orangered;
     }
 
 header, main, menu, footer  {
