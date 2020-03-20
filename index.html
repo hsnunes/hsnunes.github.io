@@ -7,94 +7,39 @@
     <title>HsNunes Currículum Pessoal\Resume Personal</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arizonia&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cardIndex.css">
 </head>
 <body>
-  <section class="wrapper">
-    <div class="resume">
-      <div class="profile_info">
-        <div class="profile_img">
-          <!-- <img src="img/hsnmb.jpg" alt="Foto\photo"> -->
-        </div>
-        <div class="profile_data">
-          <p class="name">Hilder Nunes</p>
-          <span>Desenvolvedor Web\web developer</span>
-          <span><a href="info.html">Informações</a></span>
-          <span><a href="trampos.html">trampos</a></span>
-          <span><a href="contas.html">contas</a></span>
-        </div>
-        <div class="down_cv_btn">
-          <a href="#">Baixar Currículum\download resume</a>
-        </div>
-      </div>
 
-      <div class="skills">
-        <div class="title">
-          Habilidades\Skills
-        </div>
-        <ul>
-          <li>
-            <div class="skill_item html">
-              <div class="icon"></div>
-              <div class="text">HTML</div>
-            </div>
-          </li>
-          <li>
-            <div class="skill_item css">
-              <div class="icon"></div>
-              <div class="text">CSS</div>
-            </div>
-          </li>
-          <li>
-            <div class="skill_item js">
-              <div class="icon"></div>
-              <div class="text">JavaScript</div>
-            </div>
-          </li>
-          <li>
-            <div class="skill_item jquery">
-              <div class="icon"></div>
-              <div class="text">Jquery</div>
-            </div>
-          </li>
-          <li>
-            <div class="skill_item php">
-              <div class="icon"></div>
-              <div class="text">PHP</div>
-            </div>
-          </li>
-          <li>
-            <div class="skill_item mysql">
-              <div class="icon"></div>
-              <div class="text">MySQL</div>
-            </div>
-          </li>
-        </ul>
-      </div>
+  <div class="card">
 
-      <div class="full_info_wrap">
-        <div class="tabs">
-          <ul>
-            <li data-li="experience"></li>
-            <li data-li="projects"></li>
-            <li data-li="contact"></li>
-          </ul>
-        </div>
-        <div class="full_info">
-          <div class="full_info_item experience">
-            <div class="sub_title"></div>
-            <div class="info_item">
-              <div class="info_title"></div>
-              <div class="data"></div>
-            </div>
-          </div>
-          <div class="full_info_item projects"></div>
-          <div class="full_info_item contact"></div>
-        </div>
+    <div class="card-header">
+      <img class="profile-img" src="img/hsnmb.jpg" alt="hi, its me!">
+    </div>
+
+    <div class="card-body">
+      <p class="username">Hilder Nunes</p>
+      <p class="desc">Desenvolvedor Web</p>
+    </div>
+
+    <div class="card-footer">
+      <div class="card-footer_adress">
+        <p class="local"></p>
+        <p class="city"></p>
+      </div>
+      <div class="card-footer_contact">
+        <p class="phone"></p>
+        <p class="email"></p>
+      </div>
+      <div class="card-footer_social">
+        <a href="#" class="linkedin"></a>
+        <a href="#" class="github"></a>
       </div>
     </div>
 
-  </section>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </div>
+
+<!--   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
 </body>
 </html>
