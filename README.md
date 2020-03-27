@@ -46,20 +46,8 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
 #### 0.2 Iniciando o Desenvolvimento
 [INI - qui 26 mar 2020 - 23:55:00]
 - [X] 0.2.1 Montando o esqueleto do projeto, com arquivos de utilização;
-    - Criado arquivo style.css
-    - Criado arquivo script.js
-    - Copiada a imagem (hsnmb.jpg) utilizada na app
 - [X] 0.2.2 Preparando o arquivo index.html para desenvolvimento;
-    - Criando estrutura html5
-    - Acrescentando meta tags no head
-    - Linkando arquivos externos da aplicação
-    - Criando um Hello World na pagina
 - [X] 0.2.3 Criando os elementos html da página;
-    - Iniciando o Vcard, adicionando uma section
-    - Adicionando nosso avatar/imagem
-    - Adicionando informações de profile e descrição
-    - Adicionando nossas informações de contato
-    - Adicionando minhas redes sociais
 
 #### 0.3 Aplicando Estilo aos Elementos
 - [ ] 0.3.1 iniciando os estilos iniciais da página

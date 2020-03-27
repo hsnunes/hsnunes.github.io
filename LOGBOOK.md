@@ -62,7 +62,21 @@
     [qui 26 mar 2020 - 23:48:00]
 
 ## Iniciando o Desenvolvimento
-- Montando o esqueleto do projeto;
+- 0.2.1 Montando o esqueleto do projeto, com arquivos de utilização;
+    - Criado arquivo style.css
+    - Criado arquivo script.js
+    - Copiada a imagem (hsnmb.jpg) utilizada na app
+- 0.2.2 Preparando o arquivo index.html para desenvolvimento;
+    - Criando estrutura html5
+    - Acrescentando meta tags no head
+    - Linkando arquivos externos da aplicação
+    - Criando um Hello World na pagina
+- 0.2.3 Criando os elementos html da página;
+    - Iniciando o Vcard, adicionando uma section
+    - Adicionando nosso avatar/imagem
+    - Adicionando informações de profile e descrição
+    - Adicionando nossas informações de contato
+    - Adicionando minhas redes sociais
 
 ## Entregando a Obra
 - 1.0 Comitando o V-Card no Master;
