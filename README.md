@@ -35,8 +35,9 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
 
 ## Desenvolvimento
 #### 0.1 Basic steps
-- [ ] 0.1.1 Uma limpeza na estrutura da aplicação: arquivos e pastas;
+- [X] 0.1.1 Uma limpeza na estrutura da aplicação: arquivos e pastas;
 - [ ] 0.1.2 Uma organização de desenvolvimento será criada, com nome, flow de versionamento, estrutura de pastas, período, etc.
+  - [ ] 0.1.2-A Criando estrutura de pastas - esqueleto
 - [ ] 0.1.3 Um arquivo contento estas informações, documentando;
 - [ ] 0.1.4 Definindo o versionamento e Flow, e nomeando o branchs;
 - [ ] 0.1.5 Criando um Historico de desenvolvimento, diário de bordo;
