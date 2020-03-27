@@ -78,3 +78,7 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
 
 #### 1.0 Entregando a Obra
 - [X] 1.0 Comitando o V-Card no Master;
+- [ ] 1.0.1 Modificando as cores da aplicação
+    - Aplicando um reset css simples
+    - Selecionando as cores a serem utilizadas
+    - Criando variáveis css para facil utilização
