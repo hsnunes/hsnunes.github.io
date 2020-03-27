@@ -6,3 +6,12 @@ body {
     font-size: 14px;
     color: #333;
 }
+
+.vcard-body {
+    max-width: 468px;
+    width: 100%;
+    margin: 80% auto;
+    background: #f4f4f4;
+    padding: 45px;
+    border-top: 6px solid #08aeac;
+}

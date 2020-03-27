@@ -50,7 +50,7 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
 - [X] 0.2.3 Criando os elementos html da página;
 
 #### 0.3 Aplicando Estilo aos Elementos
-- [ ] 0.3.1 iniciando os estilos iniciais da página
+- [X] 0.3.1 iniciando os estilos iniciais da página
     - Alterar o tipo de fonte utilizado, Montserrat será usada
     - Inserir uma imagem para background
     - Vamos colocar o texto em tom de cinza escuro
