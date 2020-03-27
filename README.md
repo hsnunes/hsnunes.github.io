@@ -35,15 +35,17 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
 
 ## Desenvolvimento
 #### 0.1 Basic steps
+[INI - qui 26 mar 2020 - 21:00:00]
 - [X] 0.1.1 Uma limpeza na estrutura da aplicação: arquivos e pastas;
-- [ ] 0.1.2 Uma organização de desenvolvimento será criada, com nome, flow de versionamento, estrutura de pastas, período, etc.
-  - [ ] 0.1.2-A Criando estrutura de pastas - esqueleto
-- [ ] 0.1.3 Um arquivo contento estas informações, documentando;
-- [ ] 0.1.4 Definindo o versionamento e Flow, e nomeando o branchs;
-- [ ] 0.1.5 Criando um Historico de desenvolvimento, diário de bordo;
+- [X] 0.1.2 Uma organização de desenvolvimento será criada, com nome, flow de versionamento, estrutura de pastas, período, etc.
+- [X] 0.1.3 Um arquivo contento estas informações, documentando;
+- [X] 0.1.4 Definindo o versionamento e Flow, e nomeando o branchs;
+- [X] 0.1.5 Criando um Historico de desenvolvimento, diário de bordo;
+[FIM - qui 26 mar 2020 - 23:50:00]
 
 #### 0.2 Iniciando o Desenvolvimento
-- [ ] Montando o esqueleto do projeto;
+[INI - qui 26 mar 2020 - 23:55:00]
+- [ ] 0.2.1 Montando o esqueleto do projeto, com arquivos de utilização;
 
 #### 1.0 Entregando a Obra
 - [ ] 1.0 Comitando o V-Card no Master;
