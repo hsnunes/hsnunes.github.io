@@ -54,7 +54,7 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
     - Acrescentando meta tags no head
     - Linkando arquivos externos da aplicação
     - Criando um Hello World na pagina
-- [ ] 0.2.3 Criando os elementos html da página;
+- [X] 0.2.3 Criando os elementos html da página;
     - Iniciando o Vcard, adicionando uma section
     - Adicionando nosso avatar/imagem
     - Adicionando informações de profile e descrição
