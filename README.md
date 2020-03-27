@@ -51,6 +51,30 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
 
 #### 0.3 Aplicando Estilo aos Elementos
 - [ ] 0.3.1 iniciando os estilos iniciais da página
+    - Alterar o tipo de fonte utilizado, Montserrat será usada
+    - Inserir uma imagem para background
+    - Vamos colocar o texto em tom de cinza escuro
+- [ ] 0.3.2 Iniciaremos a estilizar o vcard
+    - Inserindo borda no topo do vcard
+    - Plano de fundo bem claro
+    - Centralizando elementos
+    - Definir um tamanho
+    - Adicionar espaçaentos internos
+- [ ] 0.3.3 Trabalhando a imagem do Avatar
+    - Definindo uma tamanho
+    - Alinhando a imagem ao centro
+    - Arredondando a visualização
+- [ ] 0.3.4 Preparando os Textos do Vcard
+    - Tamanho de fonte
+    - Espessura da fonte
+    - Alinhamento do Texto
+    - Cor de fonte no elementos
+    - Espassamento entre os elementos e o texto
+- [ ] 0.3.5 Preparando os icones de Redes Sociais
+    - Cor dos icones
+    - Tamanho dos icones
+    - Espaçamento entre os icones
+    - Visualizando os elemntos estilizados
 
 #### 1.0 Entregando a Obra
 - [ ] 1.0 Comitando o V-Card no Master;
