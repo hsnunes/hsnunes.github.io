@@ -50,6 +50,10 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
     - Criado arquivo script.js
     - Copiada a imagem (hsnmb.jpg) utilizada na app
 - [ ] 0.2.2 Preparando o arquivo index.html para desenvolvimento;
+    - Criando estrutura html5
+    - Acrescentando meta tags no head
+    - Linkando arquivos externos da aplicação
+    - Criando um Hello World na pagina
 - [ ] 0.2.3 Criando os elementos html da página;
 
 #### 0.3 Aplicando Estilo aos Elementos
