@@ -77,4 +77,4 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
     - Visualizando os elemntos estilizados
 
 #### 1.0 Entregando a Obra
-- [ ] 1.0 Comitando o V-Card no Master;
+- [X] 1.0 Comitando o V-Card no Master;
