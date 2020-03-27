@@ -54,13 +54,13 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
     - Alterar o tipo de fonte utilizado, Montserrat será usada
     - Inserir uma imagem para background
     - Vamos colocar o texto em tom de cinza escuro
-- [ ] 0.3.2 Iniciaremos a estilizar o vcard
+- [X] 0.3.2 Iniciaremos a estilizar o vcard
     - Inserindo borda no topo do vcard
     - Plano de fundo bem claro
     - Centralizando elementos
     - Definir um tamanho
     - Adicionar espaçaentos internos
-- [ ] 0.3.3 Trabalhando a imagem do Avatar
+- [X] 0.3.3 Trabalhando a imagem do Avatar
     - Definindo uma tamanho
     - Alinhando a imagem ao centro
     - Arredondando a visualização
