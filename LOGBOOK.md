@@ -49,10 +49,13 @@
     Este artigo da uma boa visão de utilização bem básica do flow [link](https://tableless.com.br/git-flow-introducao/). Porém eu irei criar provavelmente um arquivo para me ajudar com as anotações desse controle de branches;
 
     Um arguivo para anotar o que foi criado, em que area de desenvolvimento, a data, se está em vigor ou não, por que ainda não foi terminada, e muito mais. Pretendo chamá-lo de LOGFLOW.md
-    Este arquivo será meu "plugin" nesse momento. E nada mais será desenvolvido na MASTER
+    Este arquivo será meu "plugin" nesse momento. E nada mais será desenvolvido na MASTER;
+
+    O arquivo LOGFLOW.md foi criado e com as regras de usabilidade dos branches.
 
     E vamos iniciar!
     [qui 26 mar 2020 - 23:47:00]
+    [upd - sex 27 mar 2020 - 01:32:00]
 
 - 0.1.5 Criando um Historico de desenvolvimento, diário de bordo;
     Bom o arquivo ja esta em uso.
