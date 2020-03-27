@@ -82,7 +82,7 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
     - Aplicando um reset css simples
     - Selecionando as cores a serem utilizadas
     - Criando variáveis css para facil utilização
-- [ ] 1.0.2 Corrigindo os espaçamentos entre os elementos
+- [X] 1.0.2 Corrigindo os espaçamentos entre os elementos
     - O Nome title deve baixar um pouco
     - A descrição deve ter margens X
     - Box de contato diminuir a fonte para encaixar
