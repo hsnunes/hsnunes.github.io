@@ -70,7 +70,7 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
     - Alinhamento do Texto
     - Cor de fonte no elementos
     - Espassamento entre os elementos e o texto
-- [ ] 0.3.5 Preparando os icones de Redes Sociais
+- [X] 0.3.5 Preparando os icones de Redes Sociais
     - Cor dos icones
     - Tamanho dos icones
     - Espaçamento entre os icones

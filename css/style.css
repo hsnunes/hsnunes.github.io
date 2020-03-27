@@ -10,7 +10,7 @@ body {
 .vcard-body {
     max-width: 468px;
     width: 100%;
-    margin: 50px auto;
+    margin: 45px auto;
     background: #f4f4f4;
     padding: 45px;
     border-top: 6px solid #08aeac;
@@ -52,4 +52,15 @@ body {
     padding: 5px 10px;
     background: #08aeac;
     color: #fff;
+}
+
+.vcard-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-icon {
+    color: #333;
+    font-size: 16px;
+    margin-right: 10px;
 }
