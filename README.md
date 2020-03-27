@@ -64,7 +64,7 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
     - Definindo uma tamanho
     - Alinhando a imagem ao centro
     - Arredondando a visualização
-- [ ] 0.3.4 Preparando os Textos do Vcard
+- [X] 0.3.4 Preparando os Textos do Vcard
     - Tamanho de fonte
     - Espessura da fonte
     - Alinhamento do Texto
