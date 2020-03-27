@@ -45,7 +45,15 @@ Bom, a princípio tudo terá uma personificação default, ou seja, sem cores ou
 
 #### 0.2 Iniciando o Desenvolvimento
 [INI - qui 26 mar 2020 - 23:55:00]
-- [ ] 0.2.1 Montando o esqueleto do projeto, com arquivos de utilização;
+- [X] 0.2.1 Montando o esqueleto do projeto, com arquivos de utilização;
+    - Criado arquivo style.css
+    - Criado arquivo script.js
+    - Copiada a imagem (hsnmb.jpg) utilizada na app
+- [ ] 0.2.2 Preparando o arquivo index.html para desenvolvimento;
+- [ ] 0.2.3 Criando os elementos html da página;
+
+#### 0.3 Aplicando Estilo aos Elementos
+- [ ] 0.3.1 iniciando os estilos iniciais da página
 
 #### 1.0 Entregando a Obra
 - [ ] 1.0 Comitando o V-Card no Master;
