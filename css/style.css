@@ -45,7 +45,7 @@ body {
 }
 
 .profile-name {
-    margin-bottom: 0;
+    padding-top: .5rem;
     text-align:center;
     font-weight: bold;
     font-size: 30px;
@@ -67,14 +67,19 @@ body {
 
 .vcard-profile-description-text {
     text-align: center;
+    padding-bottom: .5rem;
 }
 
 .vcard-profile-description-contact {
     text-align: center;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: .5rem;
     background: var(--cor-grey);
     color: #fff;
+}
+.vcard-profile-description-contact p {
+    font-size: .8em;
+    font-weight: bold;
 }
 
 .vcard-footer {
@@ -85,5 +90,14 @@ body {
 .footer-icon {
     color: #333;
     font-size: 16px;
-    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+.justify-center {
+	justify-content: center;
+}
+.space-around {
+	justify-content: space-around;
 }
