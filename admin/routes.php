@@ -1,6 +1,6 @@
 <?php
 
-auth_protection();
+//auth_protection();
 
 if (resolve('/admin/?')){
     render('home', 'admin');
