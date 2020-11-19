@@ -2,13 +2,13 @@
 
 $login = function () use ($conn) {
     $email = filter_input(INPUT_POST, 'email');
-    $passwd = filter_input(INPUT_POST, 'passwd');
+    $senha = filter_input(INPUT_POST, 'senha');
 
     if (!$email or !$passwd) {
         return false;
     }
 
-    $sql = "SELECT email, password FROM users WHERE email=?";
+    $sql = "SELECT email, senha FROM acesso WHERE email=?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param('s', $email);
     $stmt->execute();
@@ -19,9 +19,9 @@ $login = function () use ($conn) {
         return false;
     }
 
-    if (password_verify($passwd, $user['password'])) {
-        unset($user['password']);
-        $_SESSION['auth'] = $user;
+    if (password_verify($senha, $user['senha'])) {
+        unset($user['senha']);
+        $_SESSION['authOk'] = $user;
         return true;
     }
 
