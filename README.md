@@ -1,6 +1,35 @@
 # Hilder Nunes - Hsnunes
 ![Link de Visualização - https://hsnunes.github.io](https://hsnunes.github.io)
 
+*** Comunicação visual ***
+- Cartões de Visitas;
+    - Cartão Impresso com QrCode;
+    - vCard e MeCard;
+
+Página Principal do Site;
+Página de Propaganda online;
+
+
+
+
+
+
+
+
+
+
+
+
+
+*** y love pdf - para comprimir pdf
+*** pdf scape - para inserir link no pdf
+***** geraqdor de link poara whatsap
+
+
+
+
+
+
 Minha Página Pessoal.Uma página que funciona como um cartão de visita, para fins profissionais na área que atuo *** Desenvolvimento Web ***
 
 Bom, uma boa aparência nem sempre quer dizer que você é um excerlente profissional, porém, quer dizer sim, que você se preocupa pelo menos com algo. Aquele velho ditado "<i>Casa de ferreiro, espero de pau</i>" era como uma maldição na minha vida. Pois sempre tive a consciência que precisava de uma cartão de visita web, pois é onde faço minha vida profissional, e preciso disponibilizar este contato para futuros clientes. Mas vinha o diabinho, no cangote e dizia: "<i>Não te preocupa, pois a galera ja sabe que tu programa e mexe nos pc's e tals...</i>". Cara, como fui displicente!
