@@ -10,6 +10,19 @@ Página Principal do Site;
 Página de Propaganda online;
 
 
+# Gerenciador de Aplicações
+## Tarefas:
+
+#### GAT0001 (nome do branch criado, a partir da master da Aplicação);
+- uma tabela, gerente_aplicacoes;
+- Um campo NOME. Para identificar os modulos criados;
+- Um campo branch;
+- Um campo descricao;
+- Um campo motivo;
+- Um campo status;
+- Um campo criação;
+- Um campo atualização;
+
 
 
 
