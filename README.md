@@ -15,7 +15,7 @@ Página de Propaganda online;
 
 #### GAT0001 (nome do branch criado, a partir da master da Aplicação);
 - uma tabela, gerente_aplicacoes;
-- Um campo NOME. Para identificar os modulos criados;
+- Um campo aplicacao. Para identificar os modulos criados;
 - Um campo branch;
 - Um campo descricao;
 - Um campo motivo;
@@ -23,7 +23,13 @@ Página de Propaganda online;
 - Um campo criação;
 - Um campo atualização;
 
+- Criar arquivo de sql
 
+#### GAT0002 (Criação do Modulo gerenciador)
+- Criar rotas de acesso;
+- Criar CRUD de informações;
+- Criar Interface web dos forms;
+- Testar a gerencia das informações;
 
 
 
