@@ -8,6 +8,8 @@ if (resolve('/admin/?')){
     include __DIR__ . '/auth/routes.php';
 }elseif (resolve('/admin/usuarios.*')) {
     include __DIR__ . '/usuarios/routes.php';
+}elseif (resolve('/admin/gaplicacoes.*')) {
+    include __DIR__ . '/gaplicacoes/routes.php';
 }else{
     http_response_code(404);
     echo "Page Not Found!";
