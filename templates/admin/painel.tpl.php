@@ -10,7 +10,7 @@
       <div class="card-body">
         <h5 class="card-title">Cadastro de Clientes</h5>
         <p class="card-text">Uma lista de clientes e seus contatos. Agregado a equipamentos e serviços.</p>
-        <a href="#" class="btn btn-primary">Iniciar</a>
+        <a href="/admin/gaplicacoes" class="btn btn-primary">Iniciar</a>
       </div>
     </div>
 

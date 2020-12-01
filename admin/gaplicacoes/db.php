@@ -32,15 +32,9 @@ $gaplicacoes_one = function ($id) use ($conn) {
 };
 
 $gaplicacoes_create = function () use ($conn) {
-    $data = user_get_data('/admin/gaplicacoes/create');
+    $data = gaplicacoes_get_data('/admin/gaplicacoes/create');
 
-    if (!$data['passwd']) {
-        flash('Campo Senha Obrigatório', 'error');
-        header('location: /admin/gaplicacoes/create');
-        die();
-    }
-
-    $sql = "INSERT INTO gerente_aplicacoes (aplicacao, descricao, motivo, branch, status, created, updated) 
+    $sql = "INSERT INTO gerente_aplicacoes (aplicacao, descricao, motivo, branch, status, criado, atualizado) 
             VALUES (?, ?, ?, ?, ?, now(), now())";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param('sssss', $data['aplicacao'], $data['descricao'], $data['motivo'], $data['branch'], $data['status']);
@@ -51,9 +45,9 @@ $gaplicacoes_create = function () use ($conn) {
 };
 
 $gaplicacoes_edit = function ($id) use ($conn) {
-    $data = user_get_data('/admin/gaplicacoes/'.$id);
+    $data = gaplicacoes_get_data('/admin/gaplicacoes/'.$id);
 
-    $sql = "UPDATE gerente_aplicacoes SET aplicacao=?, descricao=?, motivo=?, branch=?, status=?, updated=now() WHERE id=?";
+    $sql = "UPDATE gerente_aplicacoes SET aplicacao=?, descricao=?, motivo=?, branch=?, status=?, atualizado=now() WHERE id=?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param('sssssi', $data['aplicacao'], $data['descricao'], $data['motivo'], $data['branch'], $data['status'], $id);
 

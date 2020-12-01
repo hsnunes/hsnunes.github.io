@@ -9,7 +9,7 @@ if (resolve('/admin/gaplicacoes/?')) {
 } elseif (resolve('/admin/gaplicacoes/create')) {
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $gaplicacoes_create();
-        return header('location: /gaplicacoes/gaplicacoes');
+        return header('location: /admin/gaplicacoes');
     }
     render('gaplicacoes/create', 'admin');
 

@@ -12,22 +12,22 @@
     <thead>
         <tr>
             <th>Aplicação</th>
-            <th>Descrição</th>
+            <!-- <th>Descrição</th> -->
             <th>Status</th>
-            <th>Branch</th>
-            <th>Ações</th>
+            <!-- <th>Branch</th> -->
+            <!-- <th>Ações</th> -->
         </tr>
     </thead>
     <tbody>
     <?php foreach ($data['gaplicacoes'] as $gapp): ?>
         <tr>
             <td><a href="/admin/gaplicacoes/<?php echo $gapp['id']; ?>"><?php echo $gapp['aplicacao']; ?></a></td>
-            <td><a href="/admin/gaplicacoes/<?php echo $gapp['id']; ?>"><?php echo $gapp['descricao']; ?></a></td>
+            <!-- <td><a href="/admin/gaplicacoes/<php echo $gapp['id']; ?>"><php echo gapp['descricao']; ?></a></td> -->
             <td><a href="/admin/gaplicacoes/<?php echo $gapp['id']; ?>"><?php echo $gapp['status']; ?></a></td>
-            <td><a href="/admin/gaplicacoes/<?php echo $gapp['id']; ?>"><?php echo $gapp['branch']; ?></a></td>
-            <td class="text-right">
-                <a href="/admin/gaplicacoes/<?php echo $gapp['id']; ?>/edit" class="btn btn-primary">Edit</a>
-            </td>
+            <!-- <td><a href="/admin/gaplicacoes/<php echo $gapp['id']; ?>"><php echo $gapp['branch']; ?></a></td> -->
+            <!-- <td class="text-right">
+                <a href="/admin/gaplicacoes/<php echo $gapp['id']; ?>/edit" class="btn btn-primary">Edit</a>
+            </td> -->
         </tr>
     <?php endforeach; ?>
     </tbody>
