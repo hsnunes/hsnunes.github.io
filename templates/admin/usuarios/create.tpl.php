@@ -8,7 +8,7 @@
     </div>
     <div class="form-group">
         <label for="loginUsers">Login</label>
-        <input name="login" id="loginUsers" type="text" class="form-control" placeholder="Seu Login">
+        <input name="username" id="loginUsers" type="text" class="form-control" placeholder="Seu Login">
     </div>
     <div class="form-group">
         <label for="passwdUsers">Senha</label>
@@ -16,7 +16,7 @@
     </div>
 
     <button type="submit" class="btn btn-success">Salvar</button>
-    <a href="/admin/users" class="btn btn-secondary">Usuários</a>
+    <a href="/admin/usuarios" class="btn btn-secondary">Usuários</a>
 </form>
 
 

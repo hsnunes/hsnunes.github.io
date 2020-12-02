@@ -47,7 +47,7 @@ body {
         <a class="nav-link" href="<?php resolve('/admin'); ?>">Dashboard <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Usuários</a>
+        <a class="nav-link" href="/admin/usuarios">Usuários</a>
       </li>
     </ul>
   </div>

@@ -2,7 +2,7 @@
 
 function user_get_data($redirectOnError) {
     $email = filter_input(INPUT_POST, 'email');
-    $login = filter_input(INPUT_POST, 'login');
+    $username = filter_input(INPUT_POST, 'username');
     $passwd = filter_input(INPUT_POST, 'passwd');
 
     if(!$email) {
@@ -11,16 +11,16 @@ function user_get_data($redirectOnError) {
         die();
     }
 
-    return compact('email', 'login', 'passwd');
+    return compact('email', 'username', 'passwd');
 }
 
-$users_all = function () use ($conn) {
-    $result = $conn->query("SELECT * FROM users");
+$usuarios_all = function () use ($conn) {
+    $result = $conn->query("SELECT * FROM usuarios");
     return $result->fetch_all(MYSQLI_ASSOC);
 };
 
-$users_one = function ($id) use ($conn) {
-    $sql = "SELECT * FROM users WHERE id=?";
+$usuarios_one = function ($id) use ($conn) {
+    $sql = "SELECT * FROM usuarios WHERE id=?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param('i', $id);
     $stmt->execute();
@@ -29,40 +29,41 @@ $users_one = function ($id) use ($conn) {
     return $result->fetch_assoc();
 };
 
-$users_create = function () use ($conn) {
-    $data = user_get_data('/admin/user/create');
+$usuarios_create = function () use ($conn) {
+    $data = user_get_data('/admin/usuarios/create');
 
     if (!$data['passwd']) {
         flash('Campo Senha Obrigatório', 'error');
-        header('location: /admin/users/create');
+        header('location: /admin/usuarios/create');
         die();
     }
 
-    $sql = "INSERT INTO users (email, login, password, created, updated) VALUES (?, ?, ?, now(), now())";
+    $sql = "INSERT INTO usuarios (email, username, passwd, created, updated) 
+    VALUES (?, ?, ?, now(), now())";
     $stmt = $conn->prepare($sql);
     $passwd = password_hash($data['passwd'], PASSWORD_DEFAULT);
-    $stmt->bind_param('sss', $data['email'], $data['login'], $passwd);
+    $stmt->bind_param('sss', $data['email'], $data['username'], $passwd);
 
     flash('Criou Usuário com Sucesso', 'success');
 
     return $stmt->execute();
 };
 
-$users_edit = function ($id) use ($conn) {
-    $data = user_get_data('/admin/users/'.$id);
+$usuarios_edit = function ($id) use ($conn) {
+    $data = user_get_data('/admin/usuarios/'.$id);
 
     if ($data['passwd']) {
-        $sql = "UPDATE users SET email=?, login=?, password=?, updated=now() WHERE id=?";
+        $sql = "UPDATE usuarios SET email=?, username=?, passwd=?, updated=now() WHERE id=?";
     } else {
-        $sql = "UPDATE users SET email=?, login=?, updated=now() WHERE id=?";
+        $sql = "UPDATE usuarios SET email=?, username=?, updated=now() WHERE id=?";
     }
     $stmt = $conn->prepare($sql);
 
     if ($data['passwd']) {
         $passwd = password_hash($data['passwd'], PASSWORD_DEFAULT);
-        $stmt->bind_param('sssi', $data['email'], $data['login'], $passwd, $id);
+        $stmt->bind_param('sssi', $data['email'], $data['username'], $passwd, $id);
     }else {
-        $stmt->bind_param('ssi', $data['email'], $data['login'], $id);
+        $stmt->bind_param('ssi', $data['email'], $data['username'], $id);
     }
 
     flash('Usuário Atualizado!', 'success');
@@ -70,8 +71,8 @@ $users_edit = function ($id) use ($conn) {
 
 };
 
-$users_delete = function ($id) use ($conn) {
-    $sql = "DELETE FROM users WHERE id=?";
+$usuarios_delete = function ($id) use ($conn) {
+    $sql = "DELETE FROM usuarios WHERE id=?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param('i', $id);
 

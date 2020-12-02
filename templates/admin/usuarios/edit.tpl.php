@@ -4,11 +4,11 @@
 <form action="#" method="POST">
     <div class="form-group">
         <label for="emailUsers">Email</label>
-        <input value="<?php echo $data['user']['email']; ?>" name="email" id="emailUsers" type="email" class="form-control" placeholder="Email">
+        <input value="<?php echo $data['usuario']['email']; ?>" name="email" id="emailUsers" type="email" class="form-control" placeholder="Email">
     </div>
     <div class="form-group">
         <label for="loginUsers">Login</label>
-        <input value="<?php echo $data['user']['login']; ?>" name="login" id="loginUsers" type="text" class="form-control" placeholder="Seu Login">
+        <input value="<?php echo $data['usuario']['username']; ?>" name="username" id="loginUsers" type="text" class="form-control" placeholder="Seu Login">
     </div>
     <div class="form-group">
         <label for="passwdUsers">Senha</label>
@@ -16,7 +16,7 @@
     </div>
 
     <button type="submit" class="btn btn-success">Salvar</button>
-    <a href="/admin/users" class="btn btn-secondary">Usuários</a>
+    <a href="/admin/usuarios" class="btn btn-secondary">Usuários</a>
 </form>
 
 
