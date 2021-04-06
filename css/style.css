@@ -125,7 +125,7 @@ img {
     overflow: hidden;
 }
 .nav__img img {
-    width: 46px;
+    width: auto;
 }
 .nav__name {
     display: block;
@@ -204,7 +204,7 @@ img {
     }
 
     .nav__img img{
-        width: 26px;
+        width: auto;
     }
 
     .nav__list {
